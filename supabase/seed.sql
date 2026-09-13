@@ -1,0 +1,7 @@
+-- Local development seed (only runs on `supabase db reset` / local start).
+--
+-- Intentionally empty: the one row every environment needs — the
+-- Ethereum Mainnet row in graph_chains — ships inside the migration itself
+-- (20260913120000_graph_investigations.sql), not here, so a production
+-- `supabase db push` also gets it. Seed data for manual testing can be added
+-- below without affecting production migrations.

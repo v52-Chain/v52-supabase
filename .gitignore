@@ -1,0 +1,7 @@
+# Supabase CLI local state — machine-specific, never shared.
+supabase/.branches
+supabase/.temp
+supabase/.env
+
+# Never commit a real .env for this project either.
+.env
